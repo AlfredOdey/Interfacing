@@ -20,5 +20,9 @@ namespace Interface
         {
             Console.WriteLine("Orthodox is clinching Southpaw!"); ;
         }
+        public void Bouncing()
+        {
+            Console.WriteLine("Orthodox is bouncing!");
+        }
     }
 }

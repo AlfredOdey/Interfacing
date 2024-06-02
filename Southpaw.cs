@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Interface
 {
-    internal class Southpaw : IAttack, IDefend, IClinch
+    internal class Southpaw : IAttack, IDefend, IClinch, IBounce
     {
         public void Defending()
         {
@@ -20,6 +20,10 @@ namespace Interface
         public void Clinching()
         {
             Console.WriteLine("Southpaw is clinching Orthodox!"); ;
+        }
+        public void Bouncing()
+        {
+            Console.WriteLine("Southpaw is bouncing!");
         }
     }
 }
